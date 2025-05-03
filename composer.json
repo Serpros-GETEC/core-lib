@@ -1,5 +1,5 @@
 {
-    "name": "getec/core",
+    "name": "serpros-getec/core",
     "description": "Núcleo de padrões dos sistemas da GETEC",
     "type": "library",
     "license": "MIT",
