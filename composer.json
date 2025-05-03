@@ -8,6 +8,14 @@
             "Getec\\Core\\": "src/"
         }
     },
+
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Getec\\Core\\GetecCoreServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Leandro Trocado",
