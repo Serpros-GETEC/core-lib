@@ -8,4 +8,9 @@ class Hello
   {
     return 'Olá da biblioteca GETEC/CORE!!!';
   }
+
+  public static function token()
+  {
+    return config('getec-core.api_token');
+  }
 }
