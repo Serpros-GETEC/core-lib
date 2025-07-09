@@ -1,6 +1,6 @@
 {
     "name": "serpros-getec/core",
-    "description": "Núcleo de padrões dos sistemas da GETEC",
+    "description": "Pacote base da GETEC com bibliotecas reutilizáveis para aplicações Laravel do Serpros",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -10,11 +10,11 @@
     },
 
     "extra": {
-    "laravel": {
-        "providers": [
-            "Getec\\Core\\GetecCoreServiceProvider"
-            ]
-        }
+        "laravel": {
+            "providers": [
+                "Getec\\Core\\GetecCoreServiceProvider"
+                ]
+            }
     },
     "authors": [
         {
@@ -26,6 +26,7 @@
     "require": {
         "php": "^8.1",
         "illuminate/support": "*",
-        "monolog/monolog": "*"
+        "monolog/monolog": "*",
+        "guzzlehttp/guzzle": "^7.9"
     }
 }
